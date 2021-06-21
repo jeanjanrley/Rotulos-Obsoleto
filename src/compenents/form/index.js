@@ -4,7 +4,7 @@ import './index.css'
 
 export default () => {  
     
-    const handleSubmit = (e) => {
+    const handleSubmit = ( e) => {
         e.preventDefault();
     }
     
