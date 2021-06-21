@@ -1,0 +1,70 @@
+.global-consultar{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: #745469;
+}
+
+.container-filters-buscar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.filters-buscar{
+    box-sizing: content-box;
+    flex-direction: row;
+    width: 70vw;
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background: #523956;
+}
+
+.filtros{
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 70vw;
+    height: 12vh;
+}
+
+.filtro{
+    display: flex;
+    margin: 5px 0px 20px 0px;
+    width: 170px;
+    height: 60px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+label{
+    color: white;
+    font-size: 12pt;
+    font-weight: 500;
+}
+.select{
+        -webkit-appearance: none;
+        -moz-appearance: none; 
+        border-radius: 0px;
+        line-height: 30px;
+        background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #ffffff;
+        background-position: 138px center;
+        appearance: none;
+        border:1px solid rgb(255, 255, 255);
+        width: 170px;
+        height: 30px;
+        margin: 5px 0px 20px 0px;
+}
